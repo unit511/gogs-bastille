@@ -1,0 +1,5 @@
+PKG devel/gogs
+SYSRC gogs_enable=YES
+SERVICE gogs start
+RDR tcp 3000 3000
+RDR tcp 2222 22
